@@ -4,9 +4,20 @@
 body {
     background-color: grey;
 }
-main {
-    
-}
+header {
+    display: flex;
+    background-color: beige;
+  }
+  .logo {
+    flex: 1;
+    text-align: center;
+    background-color: black;
+  }
+  
+  .logo img {
+    width: 30em;
+    height: 15em;
+  }
 .navbar {
     border: 4px solid blue;
     display: flex;
@@ -88,3 +99,6 @@ h4 {
           opacity: 1;
       }
   }
+footer {
+    text-align: center;
+}
