@@ -37,7 +37,7 @@ table {
 .fade {
   position: relative;
   width: 100%;
-  min-height: 60vh;
+  min-height: 80vh; /* 60 - 80 */
   top: -25px;
   background-image: linear-gradient(0deg, transparent, black 75%);
   z-index: 1;
