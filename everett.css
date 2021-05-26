@@ -5,6 +5,7 @@ header {
   .logo {
     flex: 1;
     text-align: center;
+    background-color: black;
   }
   
   .logo img {
@@ -32,6 +33,7 @@ header {
     background-repeat: no-repeat;
     min-height: 300px;
     background-position-x: center;
+    background-color: black;
   
   }
   .party_headline {
@@ -59,7 +61,7 @@ header {
     border: 1px solid black;
     margin: 0 5px 0 0;
     padding: 3px;
-    background: url("/images/suva.jpg");
+    background: url("https://media1.tenor.com/images/00b2cb650bba6fc62b6ccd9f9206b386/tenor.gif?itemid=16552827");
     background-size: cover;
     color: #fff;
     text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
@@ -70,7 +72,7 @@ header {
     border: 1px solid black;
     margin: 0 5px 0 5px;
     padding: 3px;
-    background: url("/images/horseshoebay.jpg");
+    background: url("https://media.tenor.com/images/f3dd9c0649578f7c03136c88a45f3ea8/tenor.gif");
     background-size: cover;
     color: #fff;
     text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
@@ -81,7 +83,7 @@ header {
     border: 1px solid black;
     margin: 0 0 0 5px;
     padding: 3px;
-    background: url("/images/JimmySnuka.jpg");
+    background: url("https://media1.tenor.com/images/c57c4455a86ee2cd978176faafb3a5b2/tenor.gif?itemid=4955544");
     background-size: cover;
     color: #fff;
     text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
