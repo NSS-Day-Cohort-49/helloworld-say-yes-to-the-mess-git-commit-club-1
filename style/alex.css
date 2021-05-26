@@ -11,7 +11,9 @@ main {
     border: 4px solid blue;
     display: flex;
     justify-content: space-evenly;
+    animation: blink 1s steps(1, end) infinite;
 }
+
 
 .country_headline {
     text-align: center;
@@ -43,16 +45,46 @@ h4 {
 
 .list {
       display: flex;
-
 }
 .Australia_cities {
     flex: 1;
+    height: 400px;
+    width: 200px;
+    overflow-y: scroll;
 }
 .Australia_landmarks {
     flex: 1;
+    height: 400px;
+    width: 200px;
+    overflow-y: scroll;
 
 }
 .Australia_people {
     flex: 1;
+    height: 400px;
+    width: 200px;
+    overflow-y: scroll;
 
 }
+
+.country_image {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.module {
+    cursor: url('http://www.rw-designer.com/cursor-view/46284.png'), auto;	
+  }
+
+  @keyframes blink {
+      0% {
+          opacity: 1;
+      }
+      50% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+  }
