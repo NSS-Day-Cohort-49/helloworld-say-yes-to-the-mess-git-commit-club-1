@@ -62,7 +62,8 @@ table {
   position: relative;
   top: 9999px;
   transform-origin: 50% 100%;
-  animation: crawl 45s linear;
+  animation: crawl 25s linear;
+  animation-iteration-count: infinite;
 }
 
 .crawl > .title {
@@ -78,7 +79,7 @@ table {
 @keyframes crawl {
   0% {
     top: 0;
-    transform: rotateX(10deg) translateZ(0);
+    transform: rotateX(8deg) translateZ(0);
   }
   100% {
     top: -6000px;
