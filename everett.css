@@ -1,0 +1,97 @@
+header {
+    display: flex;
+    background-color: beige;
+  }
+  .logo {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .logo img {
+    width: 30em;
+    height: 15em;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  nav {
+    flex-wrap: wrap;
+  }
+  button {
+    margin-bottom: 3em;
+  }
+  .banner_image {
+    background-image: url("ePictures/eBannerd.png");
+    background-repeat: no-repeat;
+    min-height: 300px;
+    background-position-x: center;
+  
+  }
+  .party_headline {
+    text-align: center;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, -1px 0 0 #000;
+    color: #fff;
+    font-size: 250%;
+  }
+  h3 {
+    text-align: center;
+  }
+  .list {
+    display: flex;
+    justify-content: space-between;
+    min-height: 500px;
+    color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, -1px 0 0 #000;
+  }
+  
+  blockquote {
+    font-size: 0.85em;
+  }
+  .partyCities {
+    flex: 1;
+    border: 1px solid black;
+    margin: 0 5px 0 0;
+    padding: 3px;
+    background: url("/images/suva.jpg");
+    background-size: cover;
+    color: #fff;
+    text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    font-size: 150%;
+  }
+  .partyLandmarks {
+    flex: 1;
+    border: 1px solid black;
+    margin: 0 5px 0 5px;
+    padding: 3px;
+    background: url("/images/horseshoebay.jpg");
+    background-size: cover;
+    color: #fff;
+    text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    font-size: 150%;
+  }
+  .partyPeople {
+    flex: 1;
+    border: 1px solid black;
+    margin: 0 0 0 5px;
+    padding: 3px;
+    background: url("/images/JimmySnuka.jpg");
+    background-size: cover;
+    color: #fff;
+    text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    font-size: 150%;
+  }
+  
+  head {
+    background-color: black;
+  }
+
+  .navbar {
+    background-color: black;
+  }
