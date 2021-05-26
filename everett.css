@@ -86,7 +86,7 @@ header {
     background: url("https://media1.tenor.com/images/c57c4455a86ee2cd978176faafb3a5b2/tenor.gif?itemid=4955544");
     background-size: cover;
     color: #fff;
-    text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    text-shadow: 2px 0 0 #000, 0 1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
     font-size: 150%;
   }
   
@@ -96,4 +96,8 @@ header {
 
   .navbar {
     background-color: black;
+  }
+
+  footer {
+    background-color: teal;
   }
